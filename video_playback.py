@@ -1,3 +1,7 @@
+# Video Playback Script
+# This script reads a video file ('hi.mp4') and displays it frame by frame.
+# Press 'q' to exit the playback.
+
 import cv2
 
 cap = cv2.VideoCapture('hi.mp4')

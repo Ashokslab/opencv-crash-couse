@@ -1,3 +1,7 @@
+# Webcam Recording Script
+# This script captures video from the default webcam, records it to 'my_video.mp4',
+# and displays the live feed. Press 'q' to stop recording.
+
 import cv2 
 
 cam = cv2.VideoCapture(0)

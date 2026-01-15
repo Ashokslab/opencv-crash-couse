@@ -1,3 +1,7 @@
+# Image Sharpening Script
+# This script reads an image ('a1.jpg'), applies a sharpening filter using a convolution kernel,
+# and displays both the original and sharpened images.
+
 import cv2
 import numpy as np
 

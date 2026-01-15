@@ -1,3 +1,7 @@
+# Gaussian Blur Script
+# This script reads an image ('ir.jpg'), applies Gaussian blur to reduce noise,
+# saves the blurred image as 'a1.jpg', and displays both original and blurred images.
+
 import cv2
 
 img = cv2.imread('ir.jpg')
